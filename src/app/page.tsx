@@ -17,7 +17,7 @@ export default function Component() {
         title: "Email pasted",
         description: "The email has been pasted from your clipboard.",
       });
-    } catch (err) {
+    } catch {
       toast({
         title: "Paste failed",
         description:
